@@ -2,6 +2,7 @@ import './App.css';
 import {TodoList } from './components/todo-list';
 import { AddTodo } from "./components/add-todo";
 import Filters from './components/filters/Filters';
+import {Collapsible} from './components/Collapsible';
 
 function App() {
   return (
@@ -9,8 +10,12 @@ function App() {
       <header className="App-header">
         <AddTodo />
         <Filters />
-        <TodoList />
+        <TodoList />  
+        <Collapsible title={'Toggle content'}>
+        sdsdsdfsdfdsdfffffffsd dfsdfsdfadfsadf  dfsdfsa   fsfsdfsdffdfsa dfs d
+      </Collapsible>      
       </header>
+     
     </div>
   );
 }
